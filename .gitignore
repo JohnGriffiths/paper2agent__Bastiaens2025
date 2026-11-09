@@ -1,0 +1,12 @@
+.venv/
+*-env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+.mcp.json
+.claude/settings.local.json
+outputs/
+results/
+.DS_Store

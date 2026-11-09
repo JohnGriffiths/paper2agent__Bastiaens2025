@@ -1,0 +1,17 @@
+License scopes
+==============
+
+Original MCP integration code and repository documentation, excluding material
+adapted from the paper, are available under the MIT License in LICENSES/MIT.txt.
+
+The upstream research code under
+mcp/Bastiaens2025_AlphaModels-mcp/repo/Bastiaens2025_AlphaModels/
+retains its original MIT License and copyright notice in that directory's LICENSE.
+
+Paper text, figures, tables, and their extracted or adapted representations under
+skill/bastiaens2025-alpha-models-paper/ are distributed under Creative Commons
+Attribution 4.0 International (CC BY 4.0), with their original credits retained:
+https://creativecommons.org/licenses/by/4.0/
+
+The MIT grant does not replace the paper's CC BY license. See
+THIRD_PARTY_NOTICES.md for attribution, source links, and descriptions of changes.

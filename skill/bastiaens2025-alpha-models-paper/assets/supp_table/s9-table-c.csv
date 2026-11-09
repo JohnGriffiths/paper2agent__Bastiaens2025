@@ -1,0 +1,24 @@
+Symbol,Description,Value
+"S^(max)
+(e,i)",Excitatory/Inhibitory population mean maximal firing rates,"500, 500 s^(−1)"
+"µ(e,i)",Excitatory/Inhibitory population thresholds (spike threshold),"-50, -50 mV"
+"σ(e,i)","Standard deviation for spike-threshold in excitatory/inhibitory
+population","5, 5 mV"
+Γe,"Excitatory postsynaptic potential peak amplitude (at the site of
+synaptic activation)",0.71 mV
+Γi,"Inhibitory postsynaptic potential peak amplitude (at the siyte of
+synaptic activation)",0.71 mV
+"γ(e,i)",Excitatory/Inhibitory postsynaptic potential rate constant,"300, 65 s^(−1)"
+"τ(e,i)",Passive membrane decay time constant,"0.094, 0.042 s"
+"V ^(r)
+(e,i)",Mean resting membrane potential,"-70, -70 mV"
+"V ^(eq)
+(e,i)",Mean equilibrium potential associated with excitation or inhibition,"45, -90 mV"
+"N ^(β)
+(ee,ei)","Total number of connections that a cell of type e, i receives from
+excitatory cells via intra-cortical fibres (Weight connections)","3000, 3000"
+"N ^(β)
+(ie,ii)","Total number of connections that a cell of type e,i receives from
+inhibitory cells via intra-cortical connections (Weight connections)","500, 500"
+"p(ee,ei)","Excitatory extra-cortical input to excitatory, inhibitory cells","3.46, 5.07s^(−1)"
+"p(ie,ii)","Inhibitory extra-cortical input to excitatory, inhibitory cells","0, 0 s^(−1)"

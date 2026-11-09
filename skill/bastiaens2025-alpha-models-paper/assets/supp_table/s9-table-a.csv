@@ -1,0 +1,27 @@
+Symbol,Description,Value
+e0,Firing rate at threshold,2.5 s^(−1)
+V0,Firing threshold,6 mV
+r,"Slope reflecting the variance of firing thresholds within
+the population",0.56 mV^(−1)
+A,Maximum amplitude of excitatory PSP (EPSP),3.25 mV
+B,Maximum amplitude of inhibitory PSP (IPSP),22 mV
+a and b,"Lumped representation of the sum of the reciprocal of
+the time constant of passive membrane and all other
+spatially distributed delays in the dendritic network","a = 100 s^(−1)
+b = 50 s^(−1)"
+C1,"Connectivity constant:
+Represents the number of
+synapses made by the feed forward neurons to the dendrites of the excitatory feedback loop","C = C1
+135"
+C2,"Connectivity constant: Proportional to the number of
+synapses made by the excitatory feedback loop to the
+dendrites of the feedforward neurons",C2 = 0.8C
+C3,"Connectivity constant: number of synapses made by the
+feedforward neurons to the dendrites of the inhibitory
+feedback loop",C3 = 0.25C
+C4,"Connectivity constant: Proportional to the number of
+synapses made by the inhibitory feedback loop to the
+dendrites of the feedforward neurons",C4 = 0.25C
+P(t),"External pulse density consisting of activity originating
+from adjacent and more distant cortical columns and
+from subcortical structures (e.g. thalamus)","Uniform noise (or normal, constant)"

@@ -1,0 +1,20 @@
+Symbol,Description,Value
+ρ1,For shape of sigmoid: Can straighten more or less the slope,2
+ρ2,For position of sigmoid: Can shift the curve right or left,1
+He,Maximum amplitude of excitatory PSP (EPSP),10 mV
+Hi,Maximum amplitude of inhibitory PSP (IPSP),22 mV
+κe and κi,"Lumped representation of the sum of the rate constants of passive
+membrane and other spatially distributed delays in the dendritic
+tree","κe = 250 s^(−1)
+κi
+=
+62.5
+s^(−1)"
+γ1,"Coupling strength: Between pyramidal cells and macrocolumn u
+(in excitatory spiny cells in granular layer)",128
+γ2,"Coupling strength: Between excitatory spiny cells in granular layer
+and pyramidal cells",128
+γ3,Coupling strength: Between pyramidal cells (excitatory) and inhibitory interneurons,64
+γ4,"Coupling strength: Between inhibitory interneurons and pyramidal
+cells",64
+γ5,Coupling strength: Inhibitory-Inhibitory coupling (recurrent connection),1

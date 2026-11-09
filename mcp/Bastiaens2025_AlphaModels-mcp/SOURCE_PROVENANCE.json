@@ -1,0 +1,33 @@
+{
+  "repository": "https://github.com/GriffithsLab/Bastiaens2025_AlphaModels",
+  "commit": "74f924beb50f60513ccb7efe065dcc1014d0c953",
+  "scientific_source_license": "MIT; full original notice in repo/Bastiaens2025_AlphaModels/LICENSE",
+  "runtime_scientific_files_sha256": {
+    "LICENSE": "501662847f5cdc96c3b872c9d224ac8b801c56740022aae61b9b83280b87a29f",
+    "README.md": "560fb7cf58e2256f699ef1c1230c784ca8d2fdfba26e7ddddbe67be3175ce4af",
+    "code/Connectivity_Heatmaps.py": "b6112e8f85d897e78186a86e8ad0525204f7267b78c508e75ea6d7abc7e6c27d",
+    "code/Estimate_1_f_component.py": "51cb66dc3b3419e92970de2ad04902296ff0610e5067b9f7da7db2a857b0d7f8",
+    "code/Eyes_closed_eyes_open.py": "0dd3f3bf9d1ecd5e69f390ee1b80355ae5f757e71006b5499bda64f26860a1e5",
+    "code/Generate_analytical_power_spectrum.py": "37f41e0b564a626bfcb5352208621e698ba305681d602fe40d20b312557cc5d1",
+    "code/Generate_time_series_power_spectra.py": "bf5dedc8bf24d3e44fa32b23a4423ca03c83d56b500ae79f9a172ef854715370",
+    "code/JR_fixed_points.py": "8b1216c1669e4385dc93c9617883535d95c522235768e80fba8d9d79c7a9609d",
+    "code/LW_fixed_points.py": "f95c9bcff5fb8f43de37550629df0cbaf65e7a2dd7815378407f7f4249720966",
+    "code/Rate_Constant_Heatmap.py": "609e980fb538e61792c2e22167387615f4dd27e93816404a3a312dadb53cc56c",
+    "code/Sigmoid_and_Impulse_Response.py": "adaedaefed9f191e852381aded9b2bcbcd1077dda2035638c3b65fa3aaccfd2e",
+    "notebooks/Rate_Constant_Heatmap.ipynb": "a00fa2f0446c97fd3ad0b43d8f463ddd6bdd149c034000c37c4b272cb1b6e917",
+    "data/Jansen_Rit_EI_connection.csv": "44dc4c7636ec262ff8d41a23d4ee601f8230f010b001d805a2ed952ce28131d2",
+    "data/Liley_EI_connection.csv": "c175270064ff7fefd6dcd063462a8ae42b25b0eccd72f7051fbf3d45c3a4de75",
+    "data/Robinson_Heatmap_Data.csv": "936094876343ce9f61cb2c456dc7f78cdc654c549296a04e82131099b1082b31"
+  },
+  "original_notebook_included_for_runtime": "notebooks/Rate_Constant_Heatmap.ipynb contains source code executed by rate tools; development notebooks are excluded.",
+  "excluded_tools": [
+    {
+      "name": "connectivity_heatmap_liley_wright",
+      "reason": "Pinned extended LW dynamics has ten undefined scientific parameters with no repository provenance; native script and official notebook both fail, inherited fabricated values rejected."
+    },
+    {
+      "name": "rate_constant_heatmap_moran_david_friston",
+      "reason": "MDF source block references stale output from previous JR/model/grid point before assigning current MDF output. Faithful standalone modularization raisesNameError; no scientific replacement guard will be invented."
+    }
+  ]
+}

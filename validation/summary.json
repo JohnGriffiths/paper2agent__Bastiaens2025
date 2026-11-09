@@ -1,0 +1,103 @@
+{
+  "kind": "recorded_release_validation",
+  "validated_at": "2026-11-09T16:51:26.921201Z",
+  "scientific_source_repository": "https://github.com/GriffithsLab/Bastiaens2025_AlphaModels",
+  "scientific_source_commit": "74f924beb50f60513ccb7efe065dcc1014d0c953",
+  "paper": {
+    "status": "reviewed_with_limitations",
+    "source_doi": "10.1371/journal.pcbi.1012926",
+    "license": "CC-BY-4.0",
+    "limits": [
+      "Dense equations and main Table 2 remain linked images.",
+      "Original source inconsistencies retained and documented."
+    ]
+  },
+  "mcp": {
+    "tool_count": 25,
+    "scientific_tests_passed": 442,
+    "runtime_cases_passed": 124,
+    "successful_artifact_sets_compared": 67,
+    "input_parameter_descriptions_verified": 366,
+    "archive_filename": "Bastiaens2025_AlphaModels-mcp.zip",
+    "archive_sha256": "80b2c5bb2ca2a3d8d9a60a2e6e93ba68c2449638312cb3b65b1cb5c04a7a79a3",
+    "archive_bytes": 152523,
+    "validated_archive_file_count": 27,
+    "upstream_scientific_source_edited": false,
+    "exact_usage_example_passed": true
+  },
+  "runtime": {
+    "python": "3.10.15",
+    "fastmcp": "4.0.3",
+    "platform": "Linux-5.14.0-503.23.1.el9_5.x86_64-x86_64-with-glibc2.34",
+    "installation": "Fresh Python venv and pinned pip requirements; actual extraction path contained spaces."
+  },
+  "scientific_suite_results": {
+    "generate_time_series_power_spectra": {
+      "tests": 26,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "generate_analytical_power_spectrum": {
+      "tests": 139,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "sigmoid_and_impulse_response": {
+      "tests": 150,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "connectivity_heatmaps": {
+      "tests": 27,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "rate_constant_heatmap": {
+      "tests": 32,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "jr_fixed_points": {
+      "tests": 20,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "lw_fixed_points": {
+      "tests": 18,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "estimate_1_f_component": {
+      "tests": 30,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  },
+  "limits": [
+    "Validation covers the25selected delivered tools, not correctness of the full paper/repository or every full-resolution sweep.",
+    "Scientific sweep checks include reduced native grids; full default time signals and analytical/curve vectors are compared.",
+    "MDF sigmoid source unit ambiguity is explicitly retained; no invented conversion.",
+    "Tested on this Linux x86_64 CPU host with Python3.10.15; other platforms were not independently installed here.",
+    "Installation requires access to pinned package distributions and a writable output directory; no GPU, credentials or external scientific dataset required."
+  ],
+  "excluded_tools": [
+    {
+      "tool": "connectivity_heatmap_liley_wright",
+      "reason": "Pinned extended source lacks required parameters; shipped precomputed LW table remains available."
+    },
+    {
+      "tool": "rate_constant_heatmap_moran_david_friston",
+      "reason": "Native stale out variable prevents faithful standalone operation; no replacement rule introduced."
+    }
+  ],
+  "numerical_reproducibility_note": "The complete unchanged estimation suite passed with original/default BLAS threading. Initial historical FOOOF parameter differences under a blanket single-thread override were retained in development evidence; no assertions or references were weakened.",
+  "provenance": "Public paper/MCP payload hashes match the independently validated deliverables. Publication adds documentation, license scopes and citation metadata; it does not alter runtime/scientific source. Full development reference execution and review evidence remains in the conversion workspace and is not required to run this release."
+}

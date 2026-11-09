@@ -1,0 +1,18 @@
+Symbol,Description,Value
+Qmax,Maximum attainable firing rate of individual neurons,340 s^(−1)
+σ^(′)π√3,Standard deviation of the threshold distribution in the neural population,"3.8∗π√3 ≈
+5.9 mV"
+θ,Mean firing threshold,12.92 mV
+γe,Cortical damping rate (Axonal velocity/Range),116 s^(−1)
+1/α,"Decay time (of impulse response, dendritic rate)",83.33 s^(−1)
+1/β,"Rise time (of impulse response, dendritic rate)",769.23 s^(−1)
+t0,Corticothalamic loop delay (Loop distance/Axonal velocity = conduction delay through thalamic nuclei and projections),80 ms
+vee,"Neesee: Mean number of synapses X strength of the response to a
+unit signal",3.03 mVs
+−vei,−Neisei,6.00 mVs
+ves,Nesses,2.06 mVs
+vse,Nsesse,2.18 mVs
+−vsr,−Nsrssr,0.83 mVs
+vre,Nresre,0.33 mVs
+vrs,Nrssrs,0.03 mVs
+vsn,Nsnssn,0.98 mVs

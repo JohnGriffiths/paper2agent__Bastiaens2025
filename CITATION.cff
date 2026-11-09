@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "Please cite the original research paper and record the repository commit or release used in your analysis."
+title: "Bastiaens alpha-model agent: reviewed paper skill and scientific MCP tools"
+type: software
+version: 0.1.0
+repository-code: https://github.com/JohnGriffiths/paper2agent__Bastiaens2025
+authors:
+  - name: "Bastiaens alpha-model agent contributors"
+license:
+  - MIT
+  - CC-BY-4.0
+preferred-citation:
+  type: article
+  title: "A comprehensive investigation of intracortical and corticothalamic models of the alpha rhythm"
+  authors:
+    - family-names: Bastiaens
+      given-names: Sorenza P.
+    - family-names: Momi
+      given-names: Davide
+    - family-names: Griffiths
+      given-names: John D.
+  journal: PLOS Computational Biology
+  year: 2025
+  volume: 21
+  issue: 4
+  doi: 10.1371/journal.pcbi.1012926
+  url: https://doi.org/10.1371/journal.pcbi.1012926
